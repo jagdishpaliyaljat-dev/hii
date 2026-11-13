@@ -28,6 +28,30 @@
       "created_at": "2026-11-13T19:14:37.345Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "67ec5dc4-e6c2-4323-8f5e-da4e3cd49d66",
+      "role": "user",
+      "content": "git push origin HEAD",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-13T19:16:34.035Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "efa2eab5-53ad-420b-a507-4319eac82833",
+      "role": "agent",
+      "content": "There is no remote repository configured yet. \n\nTo connect this project to GitHub, tap the **GitHub mark** at the top of the chat. Once connected, your entire project history will be synced there automatically.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "67ec5dc4-e6c2-4323-8f5e-da4e3cd49d66",
+      "created_at": "2026-11-13T19:16:45.040Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
