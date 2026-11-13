@@ -3,6 +3,31 @@
   "name": "hii",
   "createdAt": "2026-11-13T19:13:46.568Z",
   "filename": "1137dc12-7b09-44f8-83f3-63cc8de9a6ab.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "7cc7b7c7-a349-4b46-9f65-03bc63c88732",
+      "role": "user",
+      "content": "hii",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-13T19:14:25.908Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "bc48e989-ba47-4601-bff9-176e8e6cc889",
+      "role": "agent",
+      "content": "Hi! How can I help you today? What would you like to build or work on?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "7cc7b7c7-a349-4b46-9f65-03bc63c88732",
+      "created_at": "2026-11-13T19:14:37.345Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
